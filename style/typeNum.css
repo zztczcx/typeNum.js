@@ -1,0 +1,31 @@
+.line{
+  margin-bottom: 10px;
+  min-height: 25px;
+}   
+
+.tip{
+  font-size: 10px;
+  display: inline-block;
+  position: relative;
+  border: 1px solid #ccc;
+  top: 28px;
+  background: white;
+  padding: 4px 10px ;
+  -webkit-box-shadow: 2px 2px 2px  #ccc;
+  -webkit-transform: translateX(-12px);
+  display: none;
+}
+
+.tip:after{
+  content: "";
+  display: block;
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  border-top: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  top: -4px;
+  background: white;
+  left: 8px;
+  -webkit-transform: rotate(45deg);
+}
